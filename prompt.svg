@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 54" width="680" height="54">
+  <style>
+    text { font-family: 'JetBrains Mono', 'Courier New', monospace; }
+  </style>
+
+  <!-- background (no top rounding, continues from SVG 1) -->
+  <rect width="680" height="54" fill="#0c0c0c"/>
+
+  <!-- final prompt with blinking cursor -->
+  <text x="20" y="36" font-size="14.5"><tspan fill="#00f5d4">arnab</tspan><tspan fill="#555">@</tspan><tspan fill="#c8ff57">localhost</tspan><tspan fill="#555">:</tspan><tspan fill="#3d9eff">~</tspan><tspan fill="#c8ff57"> $ </tspan></text>
+  <rect x="193" y="25" width="8" height="13" fill="#c8ff57">
+    <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- border: left + right + bottom only (no top, continues from SVG 1) -->
+  <path d="M0.5,0 L0.5,48 Q0.5,53.5 6,53.5 L674,53.5 Q679.5,53.5 679.5,48 L679.5,0" fill="none" stroke="#1f1f1f" stroke-width="1"/>
+</svg>
