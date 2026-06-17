@@ -7,6 +7,7 @@
   <a href="https://www.linkedin.com/in/arnab-ranjan-sikdar-0a634933a/">
     <img src="https://img.shields.io/badge/LinkedIn-0C0C0C?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
+  <a href="https://github.com/ASPRNG-PRGRM">
+    <img src="https://img.shields.io/badge/GitHub-0C0C0C?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
 </p>
-
-![prompt](prompt.svg)
