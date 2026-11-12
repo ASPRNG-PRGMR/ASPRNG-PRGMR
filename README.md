@@ -1,6 +1,6 @@
 <picture>
   <source media="(max-width: 600px)" srcset="assets/header-mobile.svg">
-  <img src="about_me.svg" width="100%" alt="Arnab Ranjan Sikdar — I build across the whole stack. Firmware, systems, vision, robotics.">
+  <img src="about_me.svg" width="100%" alt="Terminal: whoami → Arnab Ranjan Sikdar. I build across the whole stack. Interests: firmware, systems, vision, robotics.">
 </picture>
 
 I build where software meets the physical world: Linux talking to unsupported hardware, vision running on microcontrollers, and robots learning to move. I like understanding the entire path — from a sensor reading or a byte on the wire to the thing you see on screen.

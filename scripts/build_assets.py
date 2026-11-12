@@ -64,37 +64,63 @@ def board(x, y):
 
 
 def header(mobile=False):
-    w, h = (640, 680) if mobile else (1200, 440)
+    w, h = (640, 800) if mobile else (1200, 520)
     s = '''<defs>
   <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
     <path d="M32 0H0V32" fill="none" stroke="#20303b" stroke-opacity=".42"/>
   </pattern>
   <radialGradient id="glow"><stop stop-color="#42612e" stop-opacity=".23"/>
     <stop offset="1" stop-color="#0b1118" stop-opacity="0"/></radialGradient>
-</defs>'''
+</defs>
+<style>
+  .cursor { animation: blink 1.2s step-end infinite; }
+  @keyframes blink {
+    0%, 49% { opacity: 1; }
+    50%, 100% { opacity: 0; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .cursor { animation: none; }
+  }
+</style>'''
     s += rect(1, 1, w - 2, h - 2, BG, LINE, 18)
     s += rect(2, 2, w - 4, h - 4, "url(#grid)", "none", 18)
     s += f'<ellipse cx="{w - 200}" cy="230" rx="340" ry="250" fill="url(#glow)"/>'
-    s += rect(32, 32, 40, 4, LIME, "none", 2)
-    s += text(88, 40, "ASPRNG-PRGMR / ENGINEERING LOG", 14, MUTED, mono=True)
-    s += text(40, 100, "ARNAB RANJAN SIKDAR", 22, WHITE, 700, extra='letter-spacing="2"')
-    s += text(36, 178, "I build across", 64, WHITE, 700, extra='letter-spacing="-2"')
-    s += text(36, 251, "the whole stack.", 64, LIME, 700, extra='letter-spacing="-2"')
+
+    # Rounded title bar, with a square lower edge like a terminal window.
+    s += rect(2, 2, w - 4, 48, SURFACE, "none", 17)
+    s += rect(2, 26, w - 4, 24, SURFACE, "none", 0)
+    s += path(f"M2 50H{w - 2}", LINE, 1)
+    for x, color in [(28, "#e68d87"), (50, "#e5bf78"), (72, "#a9cf83")]:
+        s += circle(x, 26, 6, color)
+    s += text(w / 2, 31, "arnab@workbench:~", 16, MUTED, mono=True,
+              extra='text-anchor="middle"')
+    s += text(w - 24, 31, "bash", 13, MUTED, mono=True, extra='text-anchor="end"')
+
+    s += text(40, 94, "$", 20, LIME, mono=True)
+    s += text(66, 94, "whoami", 20, MUTED, mono=True)
+    s += text(40, 133, "Arnab Ranjan Sikdar", 30, WHITE, 700)
+    s += text(36, 207, "I build across", 64, WHITE, 700, extra='letter-spacing="-2"')
+    s += text(36, 277, "the whole stack.", 64, LIME, 700, extra='letter-spacing="-2"')
+
+    s += text(40, 328, "$", 20, LIME, mono=True)
+    s += text(66, 328, "cat interests", 20, MUTED, mono=True)
+    s += text(40, 364, "firmware / systems / vision / robotics", 21, WHITE, mono=True)
     if mobile:
-        s += text(40, 295, "From the first byte to the physical world.", 21, MUTED)
-        s += board(155, 331)
-        s += path("M40 640H600", LINE, 1)
-        s += text(40, 666, "CURIOUS BY DEFAULT. HANDS ON BY DESIGN.", 14, MUTED, mono=True)
+        s += board(155, 412)
+        footer_y = 730
     else:
-        s += text(40, 302, "From the first byte to the physical world.", 24, MUTED)
-        s += board(800, 65)
-        s += path("M40 370H1160", LINE, 1)
-        s += text(40, 409, "LOW-LEVEL CURIOSITY. REAL-WORLD SYSTEMS.", 15, MUTED, mono=True)
-        s += text(1160, 409, "RUST / C++ / PYTHON / EMBEDDED C", 14, LIME, mono=True,
-                  extra='text-anchor="end"')
+        s += text(40, 401, "From the first byte to the physical world.", 22, MUTED)
+        s += board(800, 126)
+        footer_y = 450
+        s += text(w - 40, footer_y + 42, "RUST / C++ / PYTHON / EMBEDDED C", 14, MUTED,
+                  mono=True, extra='text-anchor="end"')
+
+    s += path(f"M40 {footer_y}H{w - 40}", LINE, 1)
+    s += text(40, footer_y + 42, "arnab@workbench:~ $", 20, LIME, mono=True)
+    s += rect(270, footer_y + 25, 11, 21, LIME, "none", 1, 'class="cursor"')
     return svg(w, h, "Arnab Ranjan Sikdar — systems engineer",
-               "I build across the whole stack. From the first byte to the physical world. "
-               "Firmware, systems, vision, and robotics.", s)
+               "A terminal window introducing Arnab Ranjan Sikdar with whoami and cat interests. "
+               "I build across the whole stack: firmware, systems, vision, and robotics.", s)
 
 
 def main():
