@@ -123,11 +123,52 @@ def header(mobile=False):
                "I build across the whole stack: firmware, systems, vision, and robotics.", s)
 
 
+def stack(mobile=False):
+    """A compact configuration panel, with stacked rows on narrow screens."""
+    w, h = (640, 340) if mobile else (1200, 184)
+    groups = [
+        ("LANGUAGES", "Rust / C / C++", "Python / Embedded C", LIME),
+        ("HARDWARE", "ESP32 / STM32", "Sensors / control", "#8ad8e6"),
+        ("SYSTEMS", "Linux / systemd", "GPU rendering", "#c5b3f9"),
+    ]
+    s = rect(1, 1, w - 2, h - 2, BG, LINE, 12)
+    s += text(28, 35, "$", 20, LIME, mono=True)
+    s += text(54, 35, "cat stack.conf", 20, MUTED, mono=True)
+    s += path(f"M28 54H{w - 28}", LINE, 1)
+    for i, (label, first, second, color) in enumerate(groups):
+        if mobile:
+            y = 98 + i * 90
+            s += rect(28, y - 15, 3, 18, color, "none", 1)
+            s += text(44, y, label, 18, color, mono=True)
+            s += text(222, y, first, 21, WHITE, mono=True)
+            s += text(222, y + 30, second, 21, MUTED, mono=True)
+        else:
+            x = 28 + i * 400
+            s += text(x, 85, label, 16, color, mono=True)
+            s += text(x, 119, first, 24, WHITE, mono=True)
+            s += text(x, 151, second, 24, MUTED, mono=True)
+            if i:
+                s += path(f"M{x - 28} 78V158", LINE, 1)
+    return svg(w, h, "The stack", "Rust, C, C++, Python, Embedded C; ESP32, STM32, "
+               "sensors and control; Linux, systemd, GPU rendering.", s)
+
+
+def folder(name, color):
+    s = '<path d="M1 6V3h8l3 3h11v13H1Z" fill="%s" fill-opacity=".12" stroke="%s"/>' % (color, color)
+    s += path("M1 7H23", color, 1)
+    return svg(24, 21, name, f"{name} project directory", s)
+
+
 def main():
     ASSETS.mkdir(exist_ok=True)
     (ROOT / "about_me.svg").write_text(header(), encoding="utf-8")
     (ASSETS / "header-mobile.svg").write_text(header(mobile=True), encoding="utf-8")
-    print("Built desktop and mobile headers.")
+    (ASSETS / "stack.svg").write_text(stack(), encoding="utf-8")
+    (ASSETS / "stack-mobile.svg").write_text(stack(mobile=True), encoding="utf-8")
+    for name, color in [("systems", LIME), ("embedded", "#8ad8e6"),
+                        ("vision", "#c5b3f9"), ("upstream", "#f6bb87")]:
+        (ASSETS / f"folder-{name}.svg").write_text(folder(name, color), encoding="utf-8")
+    print("Built headers, stack panels, and four folder icons.")
 
 
 if __name__ == "__main__":

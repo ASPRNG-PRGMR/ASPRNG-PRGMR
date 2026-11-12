@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="21" viewBox="0 0 24 21" role="img" aria-labelledby="title desc">
+<title id="title">embedded</title>
+<desc id="desc">embedded project directory</desc>
+<path d="M1 6V3h8l3 3h11v13H1Z" fill="#8ad8e6" fill-opacity=".12" stroke="#8ad8e6"/><path d="M1 7H23" fill="none" stroke="#8ad8e6" stroke-width="1" />
+</svg>

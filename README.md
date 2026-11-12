@@ -3,18 +3,23 @@
   <img src="about_me.svg" width="100%" alt="Terminal: whoami → Arnab Ranjan Sikdar. I build across the whole stack. Interests: firmware, systems, vision, robotics.">
 </picture>
 
+<h3><samp>$ cat about.txt</samp></h3>
+
 I build where software meets the physical world: Linux talking to unsupported hardware, vision running on microcontrollers, and robots learning to move. I like understanding the entire path — from a sensor reading or a byte on the wire to the thing you see on screen.
 
-**Rust · C / C++ · Python · Embedded C** &nbsp; / &nbsp; Linux · ESP32 · STM32 · GPU rendering
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/stack-mobile.svg">
+  <img src="assets/stack.svg" width="100%" alt="Stack: Rust, C, C++, Python, Embedded C; ESP32, STM32, sensors and control; Linux, systemd, GPU rendering.">
+</picture>
 
-[Email](mailto:arnabranjan.sikdar@gmail.com) &nbsp; ↗ &nbsp; [LinkedIn](https://www.linkedin.com/in/arnab-ranjan-sikdar-0a634933a/)
+<p><samp>$ open</samp> &nbsp; <a href="mailto:arnabranjan.sikdar@gmail.com">email ↗</a> &nbsp; / &nbsp; <a href="https://www.linkedin.com/in/arnab-ranjan-sikdar-0a634933a/">linkedin ↗</a></p>
 
-## On the workbench
+<h2><samp>$ ls ~/workbench</samp></h2>
 
-Featured projects are pinned below. Explore the full workbench by area:
+Open a directory to browse the projects. Featured builds are pinned below.
 
 <details>
-<summary><b>01 / Linux, hardware &amp; infrastructure</b></summary>
+<summary><img src="assets/folder-systems.svg" width="20" height="18" alt=""> <strong><samp>systems/</samp></strong> &nbsp; <sub>Linux · graphics · infrastructure</sub></summary>
 
 | Project | Focus |
 | :--- | :--- |
@@ -30,7 +35,7 @@ Featured projects are pinned below. Explore the full workbench by area:
 </details>
 
 <details>
-<summary><b>02 / Embedded systems, sensing &amp; control</b></summary>
+<summary><img src="assets/folder-embedded.svg" width="20" height="18" alt=""> <strong><samp>embedded/</samp></strong> &nbsp; <sub>Robotics · sensing · control</sub></summary>
 
 | Project | Focus |
 | :--- | :--- |
@@ -45,7 +50,7 @@ Featured projects are pinned below. Explore the full workbench by area:
 </details>
 
 <details>
-<summary><b>03 / Applied vision &amp; team builds</b></summary>
+<summary><img src="assets/folder-vision.svg" width="20" height="18" alt=""> <strong><samp>vision/</samp></strong> &nbsp; <sub>Edge AI · applied ML · team builds</sub></summary>
 
 | Project | Focus |
 | :--- | :--- |
@@ -57,7 +62,7 @@ Featured projects are pinned below. Explore the full workbench by area:
 </details>
 
 <details>
-<summary><b>04 / Forks &amp; upstream tools I explore</b></summary>
+<summary><img src="assets/folder-upstream.svg" width="20" height="18" alt=""> <strong><samp>upstream/</samp></strong> &nbsp; <sub>Forks · tools · exploration</sub></summary>
 
 My [OMEN Space fork](https://github.com/ASPRNG-PRGMR/omen-space) builds on [yunusemreyl/omen-space](https://github.com/yunusemreyl/omen-space), a native Linux control center for HP laptops.
 
@@ -70,4 +75,4 @@ The wider workbench also includes upstream checkouts of [Gaze](https://github.co
 <p align="center"><sub>Understand the hardware. Trace the signal. Build the whole thing.</sub></p>
 
 <!-- Artwork is local, self-contained SVG. Edit scripts/build_assets.py and run
-     python3 scripts/build_assets.py to regenerate the desktop and mobile headers. -->
+     python3 scripts/build_assets.py to regenerate the headers, stack panels, and folder icons. -->
