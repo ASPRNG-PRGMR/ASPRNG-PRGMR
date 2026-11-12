@@ -14,12 +14,12 @@ I build where software meets the physical world: Linux talking to unsupported ha
 Six projects, from the wire protocol to the pixels. Open a card to explore the code.
 
 <p align="center">
-  <a href="https://github.com/ASPRNG-PRGMR/hashi"><img src="assets/hashi.svg" width="340" alt="HASHI — an iPad as a USB extended display for Linux, with touch input. Python, C++, Rust. Hardware-tested alpha."></a>
-  <a href="https://github.com/ASPRNG-PRGMR/kage"><img src="assets/kage.svg" width="340" alt="KAGE — OLED-aware text rendering and physical subpixel simulation. Rust, OpenGL, Vulkan. Research sandbox."></a>
-  <a href="https://github.com/ASPRNG-PRGMR/senpai"><img src="assets/senpai.svg" width="340" alt="SENPAI — a native document reader with a Rust core and Poppler rendering. Rust, C++, egui. Early development."></a>
-  <a href="https://github.com/ASPRNG-PRGMR/EdgeCV"><img src="assets/edgecv.svg" width="340" alt="EdgeCV — offline image classification on ESP32 camera hardware. ESP32, TensorFlow Lite Micro. Classifier running on hardware."></a>
-  <a href="https://github.com/ASPRNG-PRGMR/EdgeRover"><img src="assets/edgerover.svg" width="340" alt="EdgeRover — a four-wheel rover with ESP-NOW control and AprilTag follower firmware. ESP32, C++, control systems. Bench testing pending."></a>
-  <a href="https://github.com/ASPRNG-PRGMR/bhukavach"><img src="assets/bhukavach.svg" width="340" alt="BhuKavach — reconstructing ground deformation from a mesh of tilt sensors. Python, MEMS, telemetry. Simulation validated; not field validated."></a>
+  <a href="https://github.com/ASPRNG-PRGMR/hashi"><img src="assets/hashi.svg" width="400" alt="HASHI — an iPad as a USB extended display for Linux, with touch input. Python, C++, Rust. Hardware-tested alpha."></a>
+  <a href="https://github.com/ASPRNG-PRGMR/kage"><img src="assets/kage.svg" width="400" alt="KAGE — OLED-aware text rendering and physical subpixel simulation. Rust, OpenGL, Vulkan. Research sandbox."></a>
+  <a href="https://github.com/ASPRNG-PRGMR/senpai"><img src="assets/senpai.svg" width="400" alt="SENPAI — a native document reader with a Rust core and Poppler rendering. Rust, C++, egui. Early development."></a>
+  <a href="https://github.com/ASPRNG-PRGMR/EdgeCV"><img src="assets/edgecv.svg" width="400" alt="EdgeCV — offline image classification on ESP32 camera hardware. ESP32, TensorFlow Lite Micro. Classifier running on hardware."></a>
+  <a href="https://github.com/ASPRNG-PRGMR/EdgeRover"><img src="assets/edgerover.svg" width="400" alt="EdgeRover — a four-wheel rover with ESP-NOW control and AprilTag follower firmware. ESP32, C++, control systems. Bench testing pending."></a>
+  <a href="https://github.com/ASPRNG-PRGMR/bhukavach"><img src="assets/bhukavach.svg" width="400" alt="BhuKavach — reconstructing ground deformation from a mesh of tilt sensors. Python, MEMS, telemetry. Simulation validated; not field validated."></a>
 </p>
 
 ## Also on the workbench
