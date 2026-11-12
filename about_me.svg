@@ -1,100 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 510" width="680" height="510">
-  <style>
-    text { font-family: 'JetBrains Mono', 'Courier New', monospace; }
-  </style>
-
-  <!-- background + titlebar -->
-  <rect width="680" height="510" fill="#0c0c0c" rx="6"/>
-  <rect width="680" height="32" fill="#111" rx="6"/>
-  <rect y="20" width="680" height="12" fill="#111"/>
-  <line x1="0" y1="32" x2="680" y2="32" stroke="#1f1f1f" stroke-width="1"/>
-  <circle cx="18" cy="16" r="5" fill="#ff5f57"/>
-  <circle cx="34" cy="16" r="5" fill="#febc2e"/>
-  <circle cx="50" cy="16" r="5" fill="#28c840"/>
-  <text x="340" y="21" fill="#555" font-size="11" text-anchor="middle" letter-spacing="0.5">ARS — bash</text>
-
-  <!-- whoami -->
-  <text x="20" y="62" font-size="14.5"><tspan fill="#00f5d4">arnab</tspan><tspan fill="#555">@</tspan><tspan fill="#c8ff57">localhost</tspan><tspan fill="#555">:</tspan><tspan fill="#3d9eff">~</tspan><tspan fill="#c8ff57"> $ </tspan><tspan fill="#e8e8e8">whoami</tspan></text>
-  <line x1="28" y1="68" x2="28" y2="104" stroke="#1f1f1f" stroke-width="1"/>
-  <text x="36" y="83" fill="#e8e8e8" font-size="17" font-weight="500" letter-spacing="-0.3">Arnab Ranjan <tspan fill="#c8ff57">Sikdar</tspan></text>
-  <text x="36" y="102" fill="#555" font-size="13">systems engineer · edge of hardware &amp; software</text>
-
-  <!-- cat about.txt -->
-  <text x="20" y="128" font-size="14.5"><tspan fill="#00f5d4">arnab</tspan><tspan fill="#555">@</tspan><tspan fill="#c8ff57">localhost</tspan><tspan fill="#555">:</tspan><tspan fill="#3d9eff">~</tspan><tspan fill="#c8ff57"> $ </tspan><tspan fill="#ccc">cat </tspan><tspan fill="#ff6b35">about.txt</tspan></text>
-  <line x1="28" y1="134" x2="28" y2="192" stroke="#1f1f1f" stroke-width="1"/>
-  <text x="36" y="149" fill="#999" font-size="14">I build things that have to work under pressure — schedulers, robots,</text>
-  <text x="36" y="167" fill="#999" font-size="14">secure telemetry, and self-hosted infra.</text>
-  <text x="36" y="185" fill="#999" font-size="14">Drawn to problems where silent failure isn't an option.</text>
-
-  <!-- cat interests.txt -->
-  <text x="20" y="213" font-size="14.5"><tspan fill="#00f5d4">arnab</tspan><tspan fill="#555">@</tspan><tspan fill="#c8ff57">localhost</tspan><tspan fill="#555">:</tspan><tspan fill="#3d9eff">~</tspan><tspan fill="#c8ff57"> $ </tspan><tspan fill="#ccc">cat </tspan><tspan fill="#ff6b35">interests.txt</tspan></text>
-  <line x1="28" y1="219" x2="28" y2="310" stroke="#1f1f1f" stroke-width="1"/>
-  <text x="36" y="235" font-size="14"><tspan fill="#333">→  </tspan><tspan fill="#ccc">real-time &amp; embedded systems</tspan></text>
-  <text x="36" y="253" font-size="14"><tspan fill="#333">→  </tspan><tspan fill="#ccc">edge AI &amp; autonomous robotics</tspan></text>
-  <text x="36" y="271" font-size="14"><tspan fill="#333">→  </tspan><tspan fill="#ccc">energy-efficient heterogeneous compute</tspan></text>
-  <text x="36" y="289" font-size="14"><tspan fill="#333">→  </tspan><tspan fill="#ccc">secure telemetry &amp; network infrastructure</tspan></text>
-  <text x="36" y="307" font-size="14"><tspan fill="#333">→  </tspan><tspan fill="#ccc">self-hosted, cloud-free setups</tspan></text>
-
-  <!-- echo skills -->
-  <text x="20" y="333" font-size="14.5"><tspan fill="#00f5d4">arnab</tspan><tspan fill="#555">@</tspan><tspan fill="#c8ff57">localhost</tspan><tspan fill="#555">:</tspan><tspan fill="#3d9eff">~</tspan><tspan fill="#c8ff57"> $ </tspan><tspan fill="#ccc">echo </tspan><tspan fill="#3d9eff">skills</tspan></text>
-
-  <!-- skills row 1: languages -->
-  <rect x="36"  y="343" width="66"  height="22" rx="2" fill="none" stroke="#00f5d440" stroke-width="1"/>
-  <text x="69"  y="358" fill="#00f5d4" font-size="13" text-anchor="middle">Python</text>
-  <rect x="110" y="343" width="64"  height="22" rx="2" fill="none" stroke="#bf5fff40" stroke-width="1"/>
-  <text x="142" y="358" fill="#bf5fff" font-size="13" text-anchor="middle">C / C++</text>
-  <rect x="182" y="343" width="92"  height="22" rx="2" fill="none" stroke="#ff6b3540" stroke-width="1"/>
-  <text x="228" y="358" fill="#ff6b35" font-size="13" text-anchor="middle">Embedded C</text>
-  <rect x="282" y="343" width="110" height="22" rx="2" fill="none" stroke="#3d9eff40" stroke-width="1"/>
-  <text x="337" y="358" fill="#3d9eff" font-size="13" text-anchor="middle">MicroPython</text>
-  <rect x="400" y="343" width="86"  height="22" rx="2" fill="none" stroke="#ff4da640" stroke-width="1"/>
-  <text x="443" y="358" fill="#ff4da6" font-size="13" text-anchor="middle">Rust / Cargo</text>
-  <rect x="494" y="343" width="50"  height="22" rx="2" fill="none" stroke="#c8ff5740" stroke-width="1"/>
-  <text x="519" y="358" fill="#c8ff57" font-size="13" text-anchor="middle">Bash</text>
-
-  <!-- skills row 2: platforms & OS -->
-  <rect x="36"  y="372" width="76"  height="22" rx="2" fill="none" stroke="#ff6b3540" stroke-width="1"/>
-  <text x="74"  y="387" fill="#ff6b35" font-size="13" text-anchor="middle">FreeRTOS</text>
-  <rect x="120" y="372" width="100" height="22" rx="2" fill="none" stroke="#00f5d440" stroke-width="1"/>
-  <text x="170" y="387" fill="#00f5d4" font-size="13" text-anchor="middle">Real-time OS</text>
-  <rect x="228" y="372" width="120" height="22" rx="2" fill="none" stroke="#bf5fff40" stroke-width="1"/>
-  <text x="288" y="387" fill="#bf5fff" font-size="13" text-anchor="middle">Linux / systemd</text>
-  <rect x="356" y="372" width="110" height="22" rx="2" fill="none" stroke="#3d9eff40" stroke-width="1"/>
-  <text x="411" y="387" fill="#3d9eff" font-size="13" text-anchor="middle">ESP32 / CAM</text>
-  <rect x="474" y="372" width="90"  height="22" rx="2" fill="none" stroke="#ff4da640" stroke-width="1"/>
-  <text x="519" y="387" fill="#ff4da6" font-size="13" text-anchor="middle">ROCm / NPU</text>
-
-  <!-- skills row 3: STM32 & infra -->
-  <rect x="36"  y="401" width="106" height="22" rx="2" fill="none" stroke="#c8ff5740" stroke-width="1"/>
-  <text x="89"  y="416" fill="#c8ff57" font-size="13" text-anchor="middle">STM32CubeMX</text>
-  <rect x="150" y="401" width="86"  height="22" rx="2" fill="none" stroke="#00f5d440" stroke-width="1"/>
-  <text x="193" y="416" fill="#00f5d4" font-size="13" text-anchor="middle">STM32IDE</text>
-  <rect x="244" y="401" width="60"  height="22" rx="2" fill="none" stroke="#bf5fff40" stroke-width="1"/>
-  <text x="274" y="416" fill="#bf5fff" font-size="13" text-anchor="middle">NGINX</text>
-  <rect x="312" y="401" width="84"  height="22" rx="2" fill="none" stroke="#ff6b3540" stroke-width="1"/>
-  <text x="354" y="416" fill="#ff6b35" font-size="13" text-anchor="middle">Tailscale</text>
-  <rect x="404" y="401" width="112" height="22" rx="2" fill="none" stroke="#3d9eff40" stroke-width="1"/>
-  <text x="460" y="416" fill="#3d9eff" font-size="13" text-anchor="middle">Cryptography</text>
-  <rect x="524" y="401" width="96"  height="22" rx="2" fill="none" stroke="#ff4da640" stroke-width="1"/>
-  <text x="572" y="416" fill="#ff4da6" font-size="13" text-anchor="middle">PID control</text>
-
-  <!-- skills row 4: AI/ML & RE -->
-  <rect x="36"  y="430" width="94"  height="22" rx="2" fill="none" stroke="#c8ff5740" stroke-width="1"/>
-  <text x="83"  y="445" fill="#c8ff57" font-size="13" text-anchor="middle">TensorFlow</text>
-  <rect x="138" y="430" width="60"  height="22" rx="2" fill="none" stroke="#00f5d440" stroke-width="1"/>
-  <text x="168" y="445" fill="#00f5d4" font-size="13" text-anchor="middle">TFLite</text>
-  <rect x="206" y="430" width="106" height="22" rx="2" fill="none" stroke="#bf5fff40" stroke-width="1"/>
-  <text x="259" y="445" fill="#bf5fff" font-size="13" text-anchor="middle">TFLite Micro</text>
-  <rect x="320" y="430" width="60"  height="22" rx="2" fill="none" stroke="#ff6b3540" stroke-width="1"/>
-  <text x="350" y="445" fill="#ff6b35" font-size="13" text-anchor="middle">Edge AI</text>
-  <rect x="388" y="430" width="66"  height="22" rx="2" fill="none" stroke="#3d9eff40" stroke-width="1"/>
-  <text x="421" y="445" fill="#3d9eff" font-size="13" text-anchor="middle">Ghidra</text>
-  <rect x="462" y="430" width="72"  height="22" rx="2" fill="none" stroke="#ff4da640" stroke-width="1"/>
-  <text x="498" y="445" fill="#ff4da6" font-size="13" text-anchor="middle">IDA Free</text>
-
-  <!-- open social_links — final command, terminal ends here -->
-  <text x="20" y="476" font-size="14.5"><tspan fill="#00f5d4">arnab</tspan><tspan fill="#555">@</tspan><tspan fill="#c8ff57">localhost</tspan><tspan fill="#555">:</tspan><tspan fill="#3d9eff">~</tspan><tspan fill="#c8ff57"> $ </tspan><tspan fill="#ccc">open </tspan><tspan fill="#ff4da6">social_links</tspan></text>
-
-  <!-- full border with closed bottom -->
-  <rect x="0.5" y="0.5" width="679" height="509" rx="5.5" fill="none" stroke="#1f1f1f" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+<title id="title">Arnab Ranjan Sikdar — systems engineer</title>
+<desc id="desc">I build across the whole stack. From the first byte to the physical world. Firmware, systems, vision, and robotics.</desc>
+<defs>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#20303b" stroke-opacity=".42"/>
+  </pattern>
+  <radialGradient id="glow"><stop stop-color="#42612e" stop-opacity=".23"/>
+    <stop offset="1" stop-color="#0b1118" stop-opacity="0"/></radialGradient>
+</defs><rect x="1" y="1" width="1198" height="438" rx="18" fill="#0b1118" stroke="#273442" /><rect x="2" y="2" width="1196" height="436" rx="18" fill="url(#grid)" stroke="none" /><ellipse cx="1000" cy="230" rx="340" ry="250" fill="url(#glow)"/><rect x="32" y="32" width="40" height="4" rx="2" fill="#c5f277" stroke="none" /><text x="88" y="40" fill="#a4b4c4" font-family="'DejaVu Sans Mono', monospace" font-size="14" font-weight="400" >ASPRNG-PRGMR / ENGINEERING LOG</text><text x="40" y="100" fill="#edf4f7" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="2">ARNAB RANJAN SIKDAR</text><text x="36" y="178" fill="#edf4f7" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700" letter-spacing="-2">I build across</text><text x="36" y="251" fill="#c5f277" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700" letter-spacing="-2">the whole stack.</text><text x="40" y="302" fill="#a4b4c4" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" >From the first byte to the physical world.</text><g transform="translate(800 65)"><circle cx="165" cy="140" r="122" fill="none" stroke="#273442" stroke-dasharray="3 9"/><circle cx="165" cy="140" r="86" fill="none" stroke="#273442"/><path d="M165 33V96" fill="none" stroke="#c5f277" stroke-width="2" /><path d="M165 184V247" fill="none" stroke="#c5f277" stroke-width="2" /><path d="M35 140H121" fill="none" stroke="#c5f277" stroke-width="2" /><path d="M209 140H295" fill="none" stroke="#c5f277" stroke-width="2" /><circle cx="165" cy="72" r="4" fill="#c5f277" /><circle cx="165" cy="214" r="4" fill="#c5f277" /><circle cx="80" cy="140" r="4" fill="#c5f277" /><circle cx="252" cy="140" r="4" fill="#c5f277" /><path d="M138 86V96M138 184V194M111 113H121M209 113H219" fill="none" stroke="#a4b4c4" stroke-width="1" /><path d="M152 86V96M152 184V194M111 127H121M209 127H219" fill="none" stroke="#a4b4c4" stroke-width="1" /><path d="M166 86V96M166 184V194M111 141H121M209 141H219" fill="none" stroke="#a4b4c4" stroke-width="1" /><path d="M180 86V96M180 184V194M111 155H121M209 155H219" fill="none" stroke="#a4b4c4" stroke-width="1" /><path d="M194 86V96M194 184V194M111 169H121M209 169H219" fill="none" stroke="#a4b4c4" stroke-width="1" /><rect x="121" y="96" width="88" height="88" rx="12" fill="#18251e" stroke="#72984a" /><text x="165" y="148" fill="#c5f277" font-family="'DejaVu Sans Mono', monospace" font-size="28" font-weight="700" text-anchor="middle">ARS</text><rect x="104" y="0" width="122" height="36" rx="6" fill="#0b1118" stroke="#273442" /><text x="165.0" y="23" fill="#a4b4c4" font-family="'DejaVu Sans Mono', monospace" font-size="13" font-weight="400" text-anchor="middle">FIRMWARE</text><rect x="104" y="247" width="122" height="36" rx="6" fill="#0b1118" stroke="#273442" /><text x="165.0" y="270" fill="#a4b4c4" font-family="'DejaVu Sans Mono', monospace" font-size="13" font-weight="400" text-anchor="middle">SYSTEMS</text><rect x="-25" y="122" width="110" height="36" rx="6" fill="#0b1118" stroke="#273442" /><text x="30.0" y="145" fill="#a4b4c4" font-family="'DejaVu Sans Mono', monospace" font-size="13" font-weight="400" text-anchor="middle">VISION</text><rect x="245" y="122" width="110" height="36" rx="6" fill="#0b1118" stroke="#273442" /><text x="300.0" y="145" fill="#a4b4c4" font-family="'DejaVu Sans Mono', monospace" font-size="13" font-weight="400" text-anchor="middle">ROBOTICS</text></g><path d="M40 370H1160" fill="none" stroke="#273442" stroke-width="1" /><text x="40" y="409" fill="#a4b4c4" font-family="'DejaVu Sans Mono', monospace" font-size="15" font-weight="400" >LOW-LEVEL CURIOSITY. REAL-WORLD SYSTEMS.</text><text x="1160" y="409" fill="#c5f277" font-family="'DejaVu Sans Mono', monospace" font-size="14" font-weight="400" text-anchor="end">RUST / C++ / PYTHON / EMBEDDED C</text>
 </svg>
