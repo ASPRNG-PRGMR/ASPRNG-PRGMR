@@ -12,14 +12,11 @@ I build where software meets the physical world: Linux talking to unsupported ha
   <img src="assets/stack.svg" width="100%" alt="Stack: Rust, C, C++, Python, Embedded C; ESP32, STM32, sensors and control; Linux, systemd, GPU rendering.">
 </picture>
 
-<p><samp>$ open</samp> &nbsp; <a href="mailto:arnabranjan.sikdar@gmail.com">email ↗</a> &nbsp; / &nbsp; <a href="https://www.linkedin.com/in/arnab-ranjan-sikdar-0a634933a/">linkedin ↗</a></p>
+<p><samp>$ open</samp> &nbsp; <a href="mailto:arnabranjan.sikdar@gmail.com">Email ↗</a> &nbsp; / &nbsp; <a href="https://www.linkedin.com/in/arnab-ranjan-sikdar/">LinkedIn ↗</a></p>
 
-<h2><samp>$ ls ~/workbench</samp></h2>
+## Projects
 
-Open a directory to browse the projects. Featured builds are pinned below.
-
-<details>
-<summary><img src="assets/folder-systems.svg" width="20" height="18" alt=""> <strong><samp>systems/</samp></strong> &nbsp; <sub>Linux · graphics · infrastructure</sub></summary>
+<h3><img src="assets/folder-systems.svg" width="20" height="18" alt=""> Linux, graphics &amp; infrastructure</h3>
 
 | Project | Focus |
 | :--- | :--- |
@@ -32,10 +29,7 @@ Open a directory to browse the projects. Featured builds are pinned below.
 | [HomeNAS](https://github.com/ASPRNG-PRGMR/HomeNAS) | A self-hosted NAS with audit logging, attack detection, and an investigation console. |
 | [HeteroWise](https://github.com/ASPRNG-PRGMR/HeteroWise) | Energy-aware workload placement across AMD CPU, GPU, and NPU targets. |
 
-</details>
-
-<details>
-<summary><img src="assets/folder-embedded.svg" width="20" height="18" alt=""> <strong><samp>embedded/</samp></strong> &nbsp; <sub>Robotics · sensing · control</sub></summary>
+<h3><img src="assets/folder-embedded.svg" width="20" height="18" alt=""> Robotics, sensing &amp; control</h3>
 
 | Project | Focus |
 | :--- | :--- |
@@ -47,10 +41,7 @@ Open a directory to browse the projects. Featured builds are pinned below.
 | [SemantiCAN](https://github.com/ASPRNG-PRGMR/SemantiCAN) | Semantic anomaly detection in simulated vehicle telemetry using rules and a local LSTM. |
 | [CSI Project](https://github.com/ASPRNG-PRGMR/csi_project) | Wi-Fi channel-state acquisition and visualization with Raspberry Pi / Nexmon and ESP32. |
 
-</details>
-
-<details>
-<summary><img src="assets/folder-vision.svg" width="20" height="18" alt=""> <strong><samp>vision/</samp></strong> &nbsp; <sub>Edge AI · applied ML · team builds</sub></summary>
+<h3><img src="assets/folder-vision.svg" width="20" height="18" alt=""> Embedded vision &amp; team builds</h3>
 
 | Project | Focus |
 | :--- | :--- |
@@ -59,16 +50,11 @@ Open a directory to browse the projects. Featured builds are pinned below.
 | [SHUWA](https://github.com/ASPRNG-PRGMR/shuwa) | Sign-language recognition with an ESP32 camera feed, PC-side landmarks, and temporal modeling. |
 | [Binary Bin / nullVoid](https://github.com/ASPRNG-PRGMR/TEAM-nullVoid) | A smart waste-sorting bin. Team build: **3rd place**, four-hour Buildathon 2026. |
 
-</details>
-
-<details>
-<summary><img src="assets/folder-upstream.svg" width="20" height="18" alt=""> <strong><samp>upstream/</samp></strong> &nbsp; <sub>Forks · tools · exploration</sub></summary>
+<h3><img src="assets/folder-upstream.svg" width="20" height="18" alt=""> Forks &amp; upstream exploration</h3>
 
 My [OMEN Space fork](https://github.com/ASPRNG-PRGMR/omen-space) builds on [yunusemreyl/omen-space](https://github.com/yunusemreyl/omen-space), a native Linux control center for HP laptops.
 
 The wider workbench also includes upstream checkouts of [Gaze](https://github.com/GunduLabs/gaze), [RealSense SDK](https://github.com/realsenseai/librealsense), [AprilTag](https://github.com/AprilRobotics/apriltag), [AprilTag for ESP32](https://github.com/raspiduino/apriltag-esp32), [TensorRT](https://github.com/NVIDIA/TensorRT), and [Booster train](https://github.com/BoosterRobotics/booster_train). These are other teams' projects, explored alongside my own work.
-
-</details>
 
 ---
 

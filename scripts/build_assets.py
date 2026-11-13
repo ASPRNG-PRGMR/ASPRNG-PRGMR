@@ -117,7 +117,7 @@ def header(mobile=False):
 
     s += path(f"M40 {footer_y}H{w - 40}", LINE, 1)
     s += text(40, footer_y + 42, "arnab@workbench:~ $", 20, LIME, mono=True)
-    s += rect(270, footer_y + 25, 11, 21, LIME, "none", 1, 'class="cursor"')
+    s += rect(290, footer_y + 25, 11, 21, LIME, "none", 1, 'class="cursor"')
     return svg(w, h, "Arnab Ranjan Sikdar — systems engineer",
                "A terminal window introducing Arnab Ranjan Sikdar with whoami and cat interests. "
                "I build across the whole stack: firmware, systems, vision, and robotics.", s)
