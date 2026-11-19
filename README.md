@@ -32,6 +32,46 @@ Turns an iPad into a USB extended display for Linux, with touch input. My flagsh
 | **[PointerForce ↗](https://github.com/ASPRNG-PRGMR/PointerForce)** | A way into driver programming, built around per-device Linux input mapping and live controls. |
 | **[kage ↗](https://github.com/ASPRNG-PRGMR/kage)** | An experimental text-rendering engine for exploring OLED subpixel layouts and GPU rendering.<br><sub>Rust · OpenGL · Vulkan</sub> |
 
+## More projects
+
+<details>
+<summary><strong>Browse 12 more projects + forks — click to expand</strong></summary>
+
+<h3><img src="assets/folder-systems.svg" width="20" height="18" alt=""> Linux, graphics &amp; infrastructure</h3>
+
+| Project | Focus |
+| :--- | :--- |
+| [PinchKey](https://github.com/ASPRNG-PRGMR/PinchKey) | Native browser pinch zoom from a mouse wheel, through a virtual touchpad. |
+| [OMEN RGB](https://github.com/ASPRNG-PRGMR/omen-rgb-keyboard) | A Linux kernel driver for HP OMEN four-zone keyboard lighting, inspired by `hp-omen-linux-module`. |
+| [HeteroWise](https://github.com/ASPRNG-PRGMR/HeteroWise) | Energy-aware workload placement across AMD CPU, GPU, and NPU targets. |
+
+<h3><img src="assets/folder-embedded.svg" width="20" height="18" alt=""> Robotics, sensing &amp; control</h3>
+
+| Project | Focus |
+| :--- | :--- |
+| [EdgeRover](https://github.com/ASPRNG-PRGMR/EdgeRover) | A four-wheel rover with ESP-NOW control and AprilTag follower firmware; bench testing pending. |
+| [BhuKavach](https://github.com/ASPRNG-PRGMR/bhukavach) | Ground-deformation reconstruction from a mesh of tilt sensors; simulation validated, not field validated. |
+| [Green Dot](https://github.com/ASPRNG-PRGMR/greenDot) | ESP32 attitude-control firmware and an ESP-NOW hand controller; hardware validation pending. |
+| [TEAM-SILICA](https://github.com/ASPRNG-PRGMR/TEAM-SILICA) | A bare-metal STM32 motor-control ECU with explicit states and emergency handling. |
+| [SemantiCAN](https://github.com/ASPRNG-PRGMR/SemantiCAN) | Semantic anomaly detection in simulated vehicle telemetry using rules and a local LSTM. |
+| [CSI Project](https://github.com/ASPRNG-PRGMR/csi_project) | Wi-Fi channel-state acquisition and visualization with Raspberry Pi / Nexmon and ESP32. |
+
+<h3><img src="assets/folder-vision.svg" width="20" height="18" alt=""> Embedded vision &amp; team builds</h3>
+
+| Project | Focus |
+| :--- | :--- |
+| [ANAJ-AI](https://github.com/ASPRNG-PRGMR/ANAJ-AI) | Crop-disease inference split across an ESP32-S3-CAM and Arduino Uno; hardware integration in progress. |
+| [SHUWA](https://github.com/ASPRNG-PRGMR/shuwa) | Sign-language recognition with an ESP32 camera feed, PC-side landmarks, and temporal modeling. |
+| [Binary Bin / nullVoid](https://github.com/ASPRNG-PRGMR/TEAM-nullVoid) | A smart waste-sorting bin. Team build: **3rd place**, four-hour Buildathon 2026. |
+
+<h3><img src="assets/folder-upstream.svg" width="20" height="18" alt=""> Forks &amp; upstream exploration</h3>
+
+My [OMEN Space fork](https://github.com/ASPRNG-PRGMR/omen-space) builds on [yunusemreyl/omen-space](https://github.com/yunusemreyl/omen-space), a native Linux control center for HP laptops.
+
+The wider workbench also includes upstream checkouts of [Gaze](https://github.com/GunduLabs/gaze), [RealSense SDK](https://github.com/realsenseai/librealsense), [AprilTag](https://github.com/AprilRobotics/apriltag), [AprilTag for ESP32](https://github.com/raspiduino/apriltag-esp32), [TensorRT](https://github.com/NVIDIA/TensorRT), and [Booster train](https://github.com/BoosterRobotics/booster_train). These are other teams' projects, explored alongside my own work.
+
+</details>
+
 ---
 
 <p align="center"><sub>Understand the hardware. Trace the signal. Build the whole thing.</sub></p>
